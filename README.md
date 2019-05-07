@@ -13,14 +13,19 @@ ACTIVIDADES DESARROLLADAS
 
 Tres en Raya
 1.	Creación de un repositorio en GitHub:
+
+![1](https://user-images.githubusercontent.com/49033904/57334746-3f66c700-70e6-11e9-9d73-5807e6c7aa54.jpg)
  
 
 Link: https://github.com/DomenikaD/Interfaz-Grafica-de-Usuario---Tres-en-Raya
 Usuario: DomenikaD
 2.	Commits:
+
+![2](https://user-images.githubusercontent.com/49033904/57334747-3f66c700-70e6-11e9-933e-fc9a85f02a77.jpg)
  
 3.	Paquetes constructor, imagen, modelo & vista:
  
+ ![3](https://user-images.githubusercontent.com/49033904/57334748-3f66c700-70e6-11e9-81db-322c24cab5e9.jpg)
 
 4.	Código:
 Clase ConstructorTurno
@@ -137,6 +142,9 @@ public class ConstructorTurno {
 
 
 Paquete Imagen
+
+
+![4](https://user-images.githubusercontent.com/49033904/57334749-3fff5d80-70e6-11e9-9dde-7c17c63a21ae.jpg)
 
  
 
@@ -820,14 +828,28 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
 5.	Diseño:
 
+![5](https://user-images.githubusercontent.com/49033904/57334750-3fff5d80-70e6-11e9-821e-c31f2da215b8.jpg)
+
  
 6.	Funcionamiento:
+
+![6](https://user-images.githubusercontent.com/49033904/57334751-3fff5d80-70e6-11e9-8bc6-162bd5bbe6bc.png)
  
 Ejemplo:
+
+![7](https://user-images.githubusercontent.com/49033904/57334752-3fff5d80-70e6-11e9-891e-927ded5d3c4a.jpg)
  
 7.	Explicación del funcionamiento de la Interfaz gráfica de usuario – Tres en Raya:
 Este proyecto es sobre el juego de Tres en Raya, que se desarrolla en el lenguaje de programación de Java. El juego es contra la computadora, con el usuario comenzando primero.
 
+
+RESULTADO(S) OBTENIDO(S):
+
+Las Interfaces Graficas de Usuario
+
+     Tres en Raya   
+     
+     ![6](https://user-images.githubusercontent.com/49033904/57334751-3fff5d80-70e6-11e9-8bc6-162bd5bbe6bc.png)
 
 CONCLUSIONES: Podemos llegar a realizar diferentes interfaces utilizando código que nos puede generar Netbeans, de esto se puede entender el funcionamiento de casa cosa & tener en cuenta que un arreglo puede ser muy útil al rato de crear juegos, como por ejemplo: Tres en Raya & El Ahorcado. 
 
