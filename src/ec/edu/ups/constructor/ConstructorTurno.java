@@ -64,12 +64,12 @@ public class ConstructorTurno {
         return 0;
     }
     
-    public int jugada(JButton botonTurno, int i, int j, int matriz[][], JLabel jX, JLabel jO) {
+    public int jugada(JButton botonTurno, int i, int j, int matriz[][]) {
         matriz[i][j] = claseT.getT();
         String n = new String();
         if (claseT.getT() == 0) {
             n = "X";
-            botonTurno.setForeground(Color.red);
+            botonTurno.setForeground(Color.MAGENTA);
         }
         
        //intercambiar();
@@ -81,12 +81,12 @@ public class ConstructorTurno {
             
             if(claseT.getT()==1){
                 claseT.settX(claseT.gettX()+1);
-                jX.setText(String.valueOf(claseT.gettX()));
+                //jX.setText(String.valueOf(claseT.gettX()));
             }
             
             if(claseT.getT()==0){
                 claseT.settO(claseT.gettO()+1);
-                jO.setText(String.valueOf(claseT.gettO()));
+                //jO.setText(String.valueOf(claseT.gettO()));
             }
             return 1;
         }
@@ -95,6 +95,13 @@ public class ConstructorTurno {
     
     
     public void raya(int matriz[][], JPanel p, int n, int i, int j){
+        matriz[i][j]=claseT.getT();
+        if(formasDeGanar(matriz)==n){
+            p.setVisible(true);
+        }
+    }
+    
+    public void raya(int matriz[][], JLabel p, int n, int i, int j){
         matriz[i][j]=claseT.getT();
         if(formasDeGanar(matriz)==n){
             p.setVisible(true);
