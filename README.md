@@ -849,7 +849,7 @@ Las Interfaces Graficas de Usuario
 
      Tres en Raya   
      
-     ![6](https://user-images.githubusercontent.com/49033904/57334751-3fff5d80-70e6-11e9-8bc6-162bd5bbe6bc.png)
+![6](https://user-images.githubusercontent.com/49033904/57334751-3fff5d80-70e6-11e9-8bc6-162bd5bbe6bc.png)
 
 CONCLUSIONES: Podemos llegar a realizar diferentes interfaces utilizando código que nos puede generar Netbeans, de esto se puede entender el funcionamiento de casa cosa & tener en cuenta que un arreglo puede ser muy útil al rato de crear juegos, como por ejemplo: Tres en Raya & El Ahorcado. 
 
